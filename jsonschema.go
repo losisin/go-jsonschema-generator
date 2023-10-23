@@ -10,11 +10,18 @@ import (
 	"strings"
 )
 
-const DEFAULT_SCHEMA = "http://json-schema.org/schema#"
+var defaultSchema = "http://json-schema.org/schema#"
 
 type Document struct {
 	Schema string `json:"$schema,omitempty"`
 	property
+}
+
+// NewDocument creates a new JSON-Schema Document with the specified schema.
+func NewDocument(schema string) *Document {
+	return &Document{
+		Schema: schema,
+	}
 }
 
 // Reads the variable structure into the JSON-Schema Document
@@ -35,7 +42,7 @@ func (d *Document) ReadDeep(variable interface{}) {
 
 func (d *Document) setDefaultSchema() {
 	if d.Schema == "" {
-		d.Schema = DEFAULT_SCHEMA
+		d.Schema = defaultSchema
 	}
 }
 
