@@ -2,10 +2,11 @@ package jsonschema
 
 import (
 	"fmt"
-	"github.com/google/go-cmp/cmp"
-	. "gopkg.in/check.v1"
 	"testing"
 	"time"
+
+	"github.com/google/go-cmp/cmp"
+	. "gopkg.in/check.v1"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -1,6 +1,6 @@
 /*
 Basic json-schema generator based on Go types, for easy interchange of Go
-structures between diferent languages.
+structures between different languages.
 */
 package jsonschema
 
