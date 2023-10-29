@@ -1,5 +1,11 @@
-go-jsonschema-generator [![Build Status](https://travis-ci.org/mcuadros/go-jsonschema-generator.png?branch=master)](https://travis-ci.org/mcuadros/go-jsonschema-generator) [![GoDoc](http://godoc.org/github.com/mcuadros/go-jsonschema-generator?status.png)](http://godoc.org/github.com/mcuadros/go-jsonschema-generator)
+go-jsonschema-generator
 ==============================
+
+[![ci](https://github.com/losisin/go-jsonschema-generator/actions/workflows/ci.yaml/badge.svg)](https://github.com/losisin/go-jsonschema-generator/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/losisin/go-jsonschema-generator/graph/badge.svg?token=0QQVCFJH84)](https://codecov.io/gh/losisin/go-jsonschema-generator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/losisin/go-jsonschema-generator)](https://goreportcard.com/report/github.com/losisin/go-jsonschema-generator)
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/losisin/go-jsonschema-generator)](https://github.com/losisin/go-jsonschema-generator/releases)
+[![GoDoc](http://godoc.org/github.com/losisin/go-jsonschema-generator?status.png)](http://godoc.org/github.com/losisin/go-jsonschema-generator)
 
 Basic [json-schema](http://json-schema.org/) generator based on Go types, for easy interchange of Go structures across languages.
 
