@@ -51,7 +51,7 @@ type ExampleBasic struct {
 
 func main() {
   s := &jsonschema.Document{}
-  s.Read(&ExampleBasic{})
+  s.ReadDeep(&ExampleBasic{})
   fmt.Println(s)
 }
 ```
